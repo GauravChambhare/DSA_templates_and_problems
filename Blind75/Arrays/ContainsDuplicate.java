@@ -7,10 +7,10 @@ package Blind75.Arrays;
 
 import java.util.*;
 
-public class prbm_347 {
+public class ContainsDuplicate {
 
     public static void main(String[] args) {
-        prbm_347 obj = new prbm_347();
+        ContainsDuplicate obj = new ContainsDuplicate();
 
         int[] nums = {1,2,1,2,1,2,3,1,3,2};
         int k = 2;
