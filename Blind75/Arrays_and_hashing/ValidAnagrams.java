@@ -1,11 +1,29 @@
 package Blind75.Arrays_and_hashing;
 /*
  * https://neetcode.io/problems/is-anagram/question?list=neetcode150
+ * https://leetcode.com/problems/valid-anagram/description/?envType=problem-list-v2&envId=oizxjoit
  * Given two strings s and t, return true if the two strings are anagrams of each other, otherwise 
  * return false.
  * An anagram is a string that contains the exact same characters as another string, but the order of 
  * the characters can be different.
-*/
+
+    Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+
+    Example 1:
+    Input: s = "anagram", t = "nagaram"
+    Output: true
+
+    Example 2:
+    Input: s = "rat", t = "car"
+    Output: false
+
+    Constraints:
+    1 <= s.length, t.length <= 5 * 104
+    s and t consist of lowercase English letters.
+ */
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class ValidAnagrams {
     public boolean isAnagram(String s, String t) {
@@ -22,4 +40,17 @@ public class ValidAnagrams {
         }
         return true;
     }
+    // Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+        /*
+        Map<Character, Integer> freq = new HashMap<>();
+        for(char c : s.toCharArray()) freq.put(c, freq.getOrDefault(c, 0)+1);
+        for(char r : t.toCharArray()){
+            if(freq.get(r)==null || freq.get(r)==0) return false;
+            freq.put(r, freq.get(r)-1);
+        }
+        for(char c : s.toCharArray()){
+            if(freq.get(c)!=0) return false;
+        }
+        return true;
+        */
 }
