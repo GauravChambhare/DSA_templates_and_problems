@@ -3,7 +3,7 @@
  * 
 */
 
-package Blind75.Math_and_geometry;
+package LeetcodeProblems.Math_and_geometry;
 
 public class SetMatrixZero {
     public void setZeroes(int[][] matrix) {

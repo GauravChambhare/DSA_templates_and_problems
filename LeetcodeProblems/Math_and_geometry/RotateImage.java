@@ -1,4 +1,4 @@
-package Blind75.Math_and_geometry;
+package LeetcodeProblems.Math_and_geometry;
 
 // https://neetcode.io/problems/rotate-matrix/question
 public class RotateImage {

@@ -18,7 +18,7 @@ Example 3:
 Input: nums = [1,2,1,2,1,2,3,1,3,2], k = 2
 Output: [1,2]
 */
-package Blind75.Arrays_and_hashing;
+package LeetcodeProblems.Arrays_and_hashing;
 
 import java.util.*;
 
