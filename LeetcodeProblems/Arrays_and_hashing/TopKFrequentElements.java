@@ -40,6 +40,7 @@ public class TopKFrequentElements {
             pq.offer(num);
             if (pq.size() > k) pq.poll();
         }
+        pq.toAr
 
         Integer[] tmp = pq.toArray(new Integer[0]);  // this returns Integer[]
         int[] ans = new int[tmp.length];
