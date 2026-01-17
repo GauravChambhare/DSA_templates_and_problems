@@ -30,7 +30,7 @@ public class ValidAnagrams {
         if(s.length()!=t.length()) return false;
         int[] freqs = new int[26];
         int[] freqt = new int[26];
-        for(char c : s.toCharArray()) freqs[c-97] +=1;
+        for(char c : s.toCharArray()) freqs[c-97] +=1; //or freqs[c-'a'] either works
         for(char c : t.toCharArray()) freqt[c-97] +=1;
         //we could have also usedd only 1 freq arry. in one strng we increment value and then in another lopp we decrement values from it for next string
         //again last time we go through the fre array and check if there is any non 0 value if there is will return false else true
