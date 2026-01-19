@@ -3,7 +3,7 @@
  * https://leetcode.com/problems/top-k-frequent-elements/description/
  * 
 */
-package LeetcodeProblems.Arrays_and_hashing;
+package LeetcodeProblems;
 
 import java.util.*;
 

@@ -3,7 +3,7 @@
  * 
 */
 
-package LeetcodeProblems.Math_and_geometry;
+package LeetcodeProblems;
 
 public class SetMatrixZero {
     public void setZeroes(int[][] matrix) {

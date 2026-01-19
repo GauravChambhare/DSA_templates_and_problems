@@ -1,4 +1,4 @@
-package LeetcodeProblems.Arrays_and_hashing;
+package LeetcodeProblems;
 /*
  * https://neetcode.io/problems/is-anagram/question?list=neetcode150
  * https://leetcode.com/problems/valid-anagram/description/?envType=problem-list-v2&envId=oizxjoit

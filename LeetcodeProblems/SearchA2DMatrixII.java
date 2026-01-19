@@ -7,7 +7,7 @@ Integers in each row are sorted in ascending from left to right.
 Integers in each column are sorted in ascending from top to bottom.
 */
 
-package LeetcodeProblems.Math_and_geometry;
+package LeetcodeProblems;
 
 public class SearchA2DMatrixII {
 

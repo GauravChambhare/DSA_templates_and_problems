@@ -35,7 +35,7 @@ Constraints:
 1 <= s.length <= 1000
 
 */
-package LeetcodeProblems.Stack;
+package LeetcodeProblems;
 
 // These imports are required for Map, Deque, and ArrayDeque
 import java.util.Map;

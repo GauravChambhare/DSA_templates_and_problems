@@ -2,7 +2,7 @@
  * https://neetcode.io/problems/set-zeroes-in-matrix?list=blind75
 */
 
-package LeetcodeProblems.Math_and_geometry;
+package LeetcodeProblems;
 
 import java.util.ArrayList;
 import java.util.List;

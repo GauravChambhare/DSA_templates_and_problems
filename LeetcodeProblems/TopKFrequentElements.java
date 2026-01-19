@@ -18,7 +18,7 @@ Example 3:
 Input: nums = [1,2,1,2,1,2,3,1,3,2], k = 2
 Output: [1,2]
 */
-package LeetcodeProblems.Arrays_and_hashing;
+package LeetcodeProblems;
 
 import java.util.*;
 
@@ -40,7 +40,6 @@ public class TopKFrequentElements {
             pq.offer(num);
             if (pq.size() > k) pq.poll();
         }
-        pq.toAr
 
         Integer[] tmp = pq.toArray(new Integer[0]);  // this returns Integer[]
         int[] ans = new int[tmp.length];
